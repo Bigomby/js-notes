@@ -7,7 +7,7 @@ import { numeros, strings, booleanos, mezcla, objetos } from './data.js';
 // Sustituye el "null" por lo que sea necesario en cada caso
 
 // Se accede al quinto elemento del array "booleanos"
-const resultado1 = null;
+const resultado1 = booleanos[4];
 assert.equal(resultado1, false);
 
 // Se accede al cuarto elemento que está en "numeros"
